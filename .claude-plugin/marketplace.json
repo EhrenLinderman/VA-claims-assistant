@@ -1,0 +1,14 @@
+{
+  "name": "va-claims-assistant",
+  "owner": {
+    "name": "EhrenAL"
+  },
+  "description": "Free push-button helper for Veterans building a VA disability claim (initial release).",
+  "plugins": [
+    {
+      "name": "va-claims-assistant",
+      "source": "./",
+      "description": "FREE push-button helper for Veterans building a VA disability claim. Initial release."
+    }
+  ]
+}
