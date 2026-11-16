@@ -34,7 +34,7 @@ and explains your VA decision when it comes.
    for preparing your claim.
 2. **Get the plugin.** Download `va-claims-assistant.plugin` from this repository's
    **Releases** page and add it in Cowork as a plugin. (Claude Code users:
-   `/plugin marketplace add <your-github-username>/va-claims-assistant`, then
+   `/plugin marketplace add EhrenLinderman/va-claims-assistant`, then
    `/plugin install va-claims-assistant@va-claims-assistant`.)
 3. **Make a folder** on your computer and put your medical records (PDFs) in it: service
    treatment records, VA exams, private records.
