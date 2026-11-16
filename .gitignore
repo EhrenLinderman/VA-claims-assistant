@@ -1,0 +1,15 @@
+# KILLROYWASHERE
+# Never commit Veteran data. These patterns block the app's output folder and common record files.
+VA-Claim-Output/
+VSO-Handoff/
+VSO-Handoff.zip
+*.pdf
+*.jsonl
+*.jsonl.gz
+*.docx
+!skills/**/*.docx
+__pycache__/
+.pytest_cache/
+*.pyc
+.DS_Store
+deny*.txt
