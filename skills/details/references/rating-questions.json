@@ -1,0 +1,610 @@
+{
+ "_about": "Plain-language questions mapped to 38 CFR Part 4 rating criteria. Ask the Veteran to pick what is TRUE on a typical day and on bad days (flare-ups). Never suggest an answer, never explain which answer pays more, and never pressure. 'maps_to' is for Claude only; do not show it. Verify criteria against the bundled CFR before use. Created by EhrenAL. JOSHUAONENINE",
+ "common": [
+  {
+   "q": "How often do you have bad days (flare-ups) with this condition?",
+   "options": [
+    "Rarely",
+    "A few times a month",
+    "Weekly",
+    "Several times a week or daily"
+   ],
+   "maps_to": "Flare-ups are considered for functional loss (38 CFR 4.40, 4.45, 4.59)"
+  }
+ ],
+ "families": {
+  "knee": {
+   "dc": [
+    "5257",
+    "5258",
+    "5259",
+    "5260",
+    "5261"
+   ],
+   "cfr": "part-4/4.71a.md",
+   "questions": [
+    {
+     "q": "Does your knee give way, buckle or feel unstable?",
+     "options": [
+      "Never",
+      "Sometimes",
+      "Often",
+      "Every day"
+     ],
+     "maps_to": "5257 instability"
+    },
+    {
+     "q": "Did a doctor or physical therapist PRESCRIBE a brace, cane, crutches or walker for your knee?",
+     "multi": true,
+     "options": [
+      "A brace (prescribed)",
+      "A cane, crutches or walker (prescribed)",
+      "I use one, but it wasn't prescribed",
+      "None"
+     ],
+     "maps_to": "5257: brace/assistive device prescribed changes the level"
+    },
+    {
+     "q": "Does your knee lock or catch, or swell up with fluid?",
+     "multi": true,
+     "options": [
+      "Locks or catches",
+      "Swells with fluid",
+      "Pain with these episodes",
+      "None of these"
+     ],
+     "maps_to": "5258 (dislocated cartilage: locking, pain, effusion) / 5259 symptomatic removal"
+    },
+    {
+     "q": "On bad days, how far can you bend your knee?",
+     "options": [
+      "Almost all the way",
+      "About halfway",
+      "Only a little",
+      "Not sure"
+     ],
+     "maps_to": "5260/5261 motion; the exam measures it, so this is supporting lay evidence"
+    }
+   ]
+  },
+  "spine": {
+   "dc": [
+    "5237",
+    "5242",
+    "5243"
+   ],
+   "cfr": "part-4/4.71a.md (General Rating Formula for the Spine)",
+   "questions": [
+    {
+     "q": "On bad days, how far can you bend forward?",
+     "options": [
+      "Almost normal",
+      "To my knees",
+      "About halfway",
+      "Barely at all"
+     ],
+     "maps_to": "Forward flexion ranges in the General Rating Formula"
+    },
+    {
+     "q": "In the past 12 months, did a doctor order bed rest for this back or neck problem?",
+     "options": [
+      "No",
+      "Yes, under 2 weeks total",
+      "Yes, 2 to 6 weeks total",
+      "Yes, more than 6 weeks total"
+     ],
+     "maps_to": "IVDS incapacitating episodes (prescribed bed rest)"
+    },
+    {
+     "q": "Do you have pain, numbness or tingling that travels into an arm or leg?",
+     "multi": true,
+     "options": [
+      "Left arm/hand",
+      "Right arm/hand",
+      "Left leg/foot",
+      "Right leg/foot"
+     ],
+     "maps_to": "Note (1): rate associated neurologic problems (radiculopathy) separately"
+    },
+    {
+     "q": "Any bowel or bladder problems you think come from your back?",
+     "options": [
+      "No",
+      "Yes",
+      "Not sure"
+     ],
+     "maps_to": "Note (1): separate neurologic ratings"
+    }
+   ]
+  },
+  "shoulder": {
+   "dc": [
+    "5201",
+    "5202",
+    "5203"
+   ],
+   "cfr": "part-4/4.71a.md",
+   "questions": [
+    {
+     "q": "Which is your dominant (writing) hand?",
+     "options": [
+      "Right",
+      "Left",
+      "Both"
+     ],
+     "maps_to": "Major vs minor arm ratings differ"
+    },
+    {
+     "q": "On bad days, how high can you raise your arm?",
+     "options": [
+      "Overhead",
+      "To shoulder level",
+      "Halfway to shoulder",
+      "Barely from my side"
+     ],
+     "maps_to": "5201 limitation of motion (90°, 45°, 25°)"
+    },
+    {
+     "q": "Does your shoulder slip or pop out of place?",
+     "options": [
+      "Never",
+      "Rarely",
+      "Often"
+     ],
+     "maps_to": "5202 recurrent dislocation"
+    }
+   ]
+  },
+  "hip": {
+   "dc": [
+    "5250",
+    "5251",
+    "5252",
+    "5253"
+   ],
+   "cfr": "part-4/4.71a.md",
+   "questions": [
+    {
+     "q": "On bad days, how far can you lift your knee toward your chest?",
+     "options": [
+      "Normal",
+      "To about waist level",
+      "Only a little",
+      "Not sure"
+     ],
+     "maps_to": "5252 flexion limits"
+    },
+    {
+     "q": "Can you cross your legs or turn your foot out?",
+     "options": [
+      "Yes, normally",
+      "With difficulty",
+      "No"
+     ],
+     "maps_to": "5253 rotation/adduction limits"
+    }
+   ]
+  },
+  "ankle": {
+   "dc": [
+    "5270",
+    "5271"
+   ],
+   "cfr": "part-4/4.71a.md",
+   "questions": [
+    {
+     "q": "Does your ankle roll or give way?",
+     "options": [
+      "Never",
+      "Sometimes",
+      "Often"
+     ],
+     "maps_to": "Instability (rated under motion or 5262/5270 analogous)"
+    },
+    {
+     "q": "Do you wear a brace or use a cane for your ankles?",
+     "options": [
+      "Prescribed brace",
+      "Brace not prescribed",
+      "Cane",
+      "None"
+     ],
+     "maps_to": "Functional loss / assistive device"
+    },
+    {
+     "q": "On bad days, how much can you move your foot up and down?",
+     "options": [
+      "Normally",
+      "Somewhat less",
+      "Very little"
+     ],
+     "maps_to": "5271 moderate vs marked limited motion"
+    }
+   ]
+  },
+  "muscle": {
+   "dc": [
+    "5313"
+   ],
+   "cfr": "part-4/4.73.md and 4.56",
+   "questions": [
+    {
+     "q": "Compared with your other leg, how does the injured muscle feel?",
+     "multi": true,
+     "options": [
+      "Weaker",
+      "Tires faster",
+      "Pain with use",
+      "Hard to coordinate movement"
+     ],
+     "maps_to": "4.56 cardinal signs: loss of power, weakness, fatigue-pain, impaired coordination"
+    },
+    {
+     "q": "Was the injury repaired with surgery, and do you still have residual problems?",
+     "options": [
+      "Surgery, still have problems",
+      "Surgery, mostly recovered",
+      "No surgery"
+     ],
+     "maps_to": "Slight / moderate / moderately severe / severe"
+    }
+   ]
+  },
+  "nerve": {
+   "dc": [
+    "8510",
+    "8511",
+    "8512",
+    "8513",
+    "8520"
+   ],
+   "cfr": "part-4/4.124a.md",
+   "questions": [
+    {
+     "q": "Which is your dominant (writing) hand?",
+     "options": [
+      "Right",
+      "Left",
+      "Both"
+     ],
+     "maps_to": "Major vs minor"
+    },
+    {
+     "q": "How strong are the nerve symptoms (pain, numbness, tingling, weakness)?",
+     "options": [
+      "Mild, comes and goes",
+      "Moderate, most days",
+      "Severe, with weakness or muscle loss"
+     ],
+     "maps_to": "Incomplete paralysis mild / moderate / severe"
+    }
+   ]
+  },
+  "mental": {
+   "dc": [
+    "9411",
+    "9400",
+    "9434"
+   ],
+   "cfr": "part-4/4.130.md (General Rating Formula for Mental Disorders)",
+   "trauma_informed": true,
+   "questions": [
+    {
+     "q": "Which of these do you deal with? Check all that apply. You can skip this.",
+     "multi": true,
+     "options": [
+      "Nightmares or flashbacks",
+      "Panic attacks",
+      "Trouble with memory or focus",
+      "Irritability or anger",
+      "Avoiding people or crowds",
+      "Depressed mood",
+      "Trouble sleeping",
+      "Thoughts of death or self-harm"
+     ],
+     "maps_to": "Symptom examples in the General Rating Formula. If 'thoughts of death or self-harm' is checked, show the TAKE A BREAK block with the Veterans Crisis Line FIRST."
+    },
+    {
+     "q": "How much does it affect work?",
+     "options": [
+      "A little, I manage",
+      "Sometimes less efficient",
+      "Often less reliable or productive",
+      "Hard to keep a job"
+     ],
+     "maps_to": "Occupational impairment levels (10/30/50/70)"
+    },
+    {
+     "q": "How much does it affect family and friends?",
+     "options": [
+      "A little",
+      "Some strain",
+      "Serious strain",
+      "I've lost most relationships"
+     ],
+     "maps_to": "Social impairment"
+    }
+   ]
+  },
+  "tbi": {
+   "dc": [
+    "8045"
+   ],
+   "cfr": "part-4/4.124a.md (8045 facets)",
+   "questions": [
+    {
+     "q": "Which of these do you have since the head injury? Check all that apply.",
+     "multi": true,
+     "options": [
+      "Memory or attention problems",
+      "Headaches",
+      "Dizziness or balance problems",
+      "Light or sound sensitivity",
+      "Ringing in the ears",
+      "Trouble sleeping",
+      "Mood changes",
+      "Trouble planning or organizing"
+     ],
+     "maps_to": "8045 cognitive facets and subjective symptoms; avoid double-counting with PTSD (4.14)"
+    }
+   ]
+  },
+  "migraine": {
+   "dc": [
+    "8100"
+   ],
+   "cfr": "part-4/4.124a.md",
+   "questions": [
+    {
+     "q": "During a bad headache, do you have to stop what you're doing and lie down?",
+     "options": [
+      "No",
+      "Sometimes",
+      "Usually"
+     ],
+     "maps_to": "'Prostrating' attacks"
+    },
+    {
+     "q": "How often does that happen, on average over the last few months?",
+     "options": [
+      "Less than once every 2 months",
+      "About once every 2 months",
+      "About once a month",
+      "More than once a month"
+     ],
+     "maps_to": "8100: 0 / 10 / 30 / 50 frequency thresholds"
+    },
+    {
+     "q": "Have headaches caused you to miss work or leave early?",
+     "options": [
+      "Never",
+      "Sometimes",
+      "Often"
+     ],
+     "maps_to": "Economic inadaptability (50%)"
+    }
+   ]
+  },
+  "tinnitus": {
+   "dc": [
+    "6260"
+   ],
+   "cfr": "part-4/4.87.md",
+   "questions": [
+    {
+     "q": "Is the ringing there most of the time or does it come back often?",
+     "options": [
+      "Constant",
+      "Comes and goes often",
+      "Rarely"
+     ],
+     "maps_to": "6260 recurrent tinnitus: a single 10% whether one ear, both, or head"
+    }
+   ]
+  },
+  "sleep_apnea": {
+   "dc": [
+    "6847"
+   ],
+   "cfr": "part-4/4.97.md",
+   "questions": [
+    {
+     "q": "Has a doctor prescribed a CPAP/APAP machine (or similar breathing device)?",
+     "options": [
+      "Yes, and I use it",
+      "Yes, but I don't use it",
+      "Not prescribed",
+      "Waiting for one"
+     ],
+     "maps_to": "6847: device required = 50%"
+    },
+    {
+     "q": "Are you very sleepy during the day even after a full night?",
+     "options": [
+      "No",
+      "Sometimes",
+      "Most days"
+     ],
+     "maps_to": "Persistent daytime hypersomnolence = 30%"
+    }
+   ]
+  },
+  "gerd": {
+   "dc": [
+    "7206"
+   ],
+   "cfr": "part-4/4.114.md",
+   "questions": [
+    {
+     "q": "Has a doctor found a narrowing (stricture) of your esophagus, or stretched it (dilation)?",
+     "options": [
+      "No",
+      "Yes, found a narrowing",
+      "Yes, I've had dilations",
+      "Not sure"
+     ],
+     "maps_to": "7206 is now rated on documented stricture; without stricture the rating is 0% (service connection still matters)"
+    },
+    {
+     "q": "Do you take medicine every day for reflux?",
+     "options": [
+      "Yes, daily prescription",
+      "Only as needed",
+      "No"
+     ],
+     "maps_to": "Daily medication criteria"
+    },
+    {
+     "q": "Do you have trouble swallowing?",
+     "options": [
+      "No",
+      "Sometimes",
+      "Often"
+     ],
+     "maps_to": "Dysphagia"
+    }
+   ]
+  },
+  "scars": {
+   "dc": [
+    "7801",
+    "7802",
+    "7804",
+    "7805"
+   ],
+   "cfr": "part-4/4.118.md",
+   "questions": [
+    {
+     "q": "How many of your scars are painful?",
+     "options": [
+      "None",
+      "1 or 2",
+      "3 or 4",
+      "5 or more"
+     ],
+     "maps_to": "7804 counts painful or unstable scars"
+    },
+    {
+     "q": "Does the skin over any scar break open or wear away often?",
+     "options": [
+      "No",
+      "Yes"
+     ],
+     "maps_to": "Unstable scar (adds 10% if also painful)"
+    },
+    {
+     "q": "Do any scars limit movement or cause other problems?",
+     "options": [
+      "No",
+      "Yes"
+     ],
+     "maps_to": "7805 other effects"
+    }
+   ]
+  }
+ },
+ "dc_to_family": {
+  "5257": "knee",
+  "5258": "knee",
+  "5259": "knee",
+  "5260": "knee",
+  "5261": "knee",
+  "5237": "spine",
+  "5242": "spine",
+  "5243": "spine",
+  "5201": "shoulder",
+  "5250": "hip",
+  "5251": "hip",
+  "5252": "hip",
+  "5253": "hip",
+  "5270": "ankle",
+  "5271": "ankle",
+  "5313": "muscle",
+  "8510": "nerve",
+  "8513": "nerve",
+  "8520": "nerve",
+  "9411": "mental",
+  "8045": "tbi",
+  "8100": "migraine",
+  "6260": "tinnitus",
+  "6847": "sleep_apnea",
+  "7206": "gerd",
+  "7800": "scars",
+  "7801": "scars",
+  "7802": "scars",
+  "7804": "scars",
+  "7805": "scars"
+ },
+ "impact": {
+  "_about": "Asked for EVERY claim. Functional impact on work and relationships supports every rating (38 CFR 4.10), is the core of mental-health ratings (4.130), and matters for extra-schedular (3.321(b)) and TDIU (4.16) decisions. Ask what is true; never suggest answers.",
+  "work": {
+   "q": "How does your <condition> affect your job (military or civilian)? Check all that apply.",
+   "multi": true,
+   "options": [
+    "Can't do some parts of my job",
+    "Slower or less productive",
+    "Miss work, leave early, or need appointments",
+    "On a profile / limited duty / job changed",
+    "Need accommodations (breaks, standing desk, no lifting)",
+    "Trouble focusing or making mistakes",
+    "Conflicts with coworkers or supervisors",
+    "Changed jobs or was let go",
+    "Can't work at all",
+    "No effect on work"
+   ]
+  },
+  "relationships": {
+   "q": "How does your <condition> affect your close relationships? Check all that apply. You can skip this.",
+   "multi": true,
+   "options": [
+    "Can't play sports or do active things with my kids or family",
+    "Can't do other activities with my spouse/partner or kids",
+    "Strain or arguments at home",
+    "Pull away from family or friends",
+    "Skip social events, trips, or church",
+    "Affects intimacy",
+    "Family helps me with tasks",
+    "No effect on relationships"
+   ],
+   "active_family": {
+    "_about": "For physical conditions, ask about active family life FIRST and by name, with an example in the description. It shows real loss of function (38 CFR 4.10, 4.40) and is often the most convincing part of a statement.",
+    "families": [
+     "knee",
+     "spine",
+     "shoulder",
+     "hip",
+     "ankle",
+     "muscle",
+     "nerve",
+     "tbi",
+     "migraine",
+     "sleep_apnea"
+    ],
+    "option": "Can't play sports or do active things with my kids or family",
+    "examples": "coaching or playing ball with the kids, jogging together, hiking, biking, swimming, carrying or lifting kids, rough-housing, yard games",
+    "follow_up": "Which activities did you used to do with them that you can't do now, or do less? (type them, or Skip)"
+   }
+  },
+  "daily": {
+   "q": "How does it affect daily life? Check all that apply.",
+   "multi": true,
+   "options": [
+    "Standing or walking long",
+    "Lifting or carrying",
+    "Sitting long or driving",
+    "Stairs, kneeling or squatting",
+    "Sleeping",
+    "Exercise or sports",
+    "Chores or yard work",
+    "Bathing, dressing or self-care"
+   ]
+  },
+  "example": {
+   "q": "Want to add one real example, in your own words? (For example: 'I can't help coach my kids and jog with them in practice anymore.') This is often the most convincing part of a statement.",
+   "options": [
+    "I'll type one",
+    "Skip"
+   ]
+  }
+ }
+}

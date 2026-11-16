@@ -1,0 +1,27 @@
+{
+  "build": "KILLROYWASHERE",
+  "source": "eCFR (ecfr.gov), Title 38 Chapter I",
+  "as_of": "2026-10-01",
+  "converted": "2026-10-04",
+  "files": [
+    {
+      "part": "3",
+      "file": "e7569f55-title-38.xml",
+      "sha256": "56196667ebe71649c4cd121ad4f26db40444b77d5712612e7d4d75b5f9f29f05"
+    },
+    {
+      "part": "4",
+      "file": "3605f72c-title-38_1.xml",
+      "sha256": "dd3e05f1952d0f4c4fc75c45423b943e048f9a45140dc455ee29ab19b864af57"
+    }
+  ],
+  "sections": 405,
+  "diagnostic_codes": 729,
+  "image_only_tables": [
+    "4.71",
+    "4.71a",
+    "4.76a",
+    "4.77",
+    "4.85"
+  ]
+}

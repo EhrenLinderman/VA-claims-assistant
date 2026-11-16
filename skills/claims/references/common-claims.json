@@ -1,0 +1,32 @@
+{
+  "_about": "Common VA disability claims to offer as 'did we miss anything?' prompts. Show only those not already on the Veteran's list. Created by EhrenAL. JOSHUAONENINE",
+  "groups": [
+    {"group": "Ears, eyes and head", "items": [
+      {"label": "Tinnitus", "desc": "Ringing, buzzing or humming in the ears", "terms": "tinnitus|ringing in the ears"},
+      {"label": "Hearing loss", "desc": "Trouble hearing, especially in noise", "terms": "hearing loss|threshold shift|hard of hearing"},
+      {"label": "Migraines / headaches", "desc": "Frequent or severe headaches", "terms": "migraine|headache"},
+      {"label": "Eye problems", "desc": "Dry eye, vision changes, eye injury", "terms": "dry eye|vision|eye injury"}]},
+    {"group": "Mental health and sleep", "items": [
+      {"label": "PTSD", "desc": "From a scary or traumatic event in service", "terms": "ptsd|posttraumatic"},
+      {"label": "Depression or anxiety", "desc": "Low mood, constant worry, panic", "terms": "depress|anxiety|panic"},
+      {"label": "Insomnia", "desc": "Trouble falling or staying asleep", "terms": "insomnia|trouble sleeping|sleep disturbance"},
+      {"label": "Sleep apnea", "desc": "Snoring, stop breathing in sleep, CPAP", "terms": "sleep apnea|cpap|snor"}]},
+    {"group": "Breathing and toxic exposure", "items": [
+      {"label": "Sinus or nose problems", "desc": "Chronic sinusitis or rhinitis (PACT Act)", "terms": "sinusitis|rhinitis|hay fever|sinus"},
+      {"label": "Asthma or breathing problems", "desc": "Asthma, COPD, bronchitis (PACT Act)", "terms": "asthma|copd|bronchitis|shortness of breath"},
+      {"label": "Cancer", "desc": "Any cancer (some are PACT Act presumptive)", "terms": "cancer|carcinoma|lymphoma|melanoma"},
+      {"label": "High blood pressure", "desc": "Hypertension", "terms": "hypertension|high blood pressure|elevated blood pressure"}]},
+    {"group": "Stomach, bladder and skin", "items": [
+      {"label": "GERD / reflux", "desc": "Heartburn, acid reflux", "terms": "gerd|reflux|heartburn"},
+      {"label": "IBS / bowel problems", "desc": "Diarrhea, constipation, cramping", "terms": "irritable bowel|ibs|diarrhea|constipation"},
+      {"label": "Erectile dysfunction", "desc": "Often linked to medicines or other conditions", "terms": "erectile"},
+      {"label": "Skin conditions", "desc": "Eczema, psoriasis, rashes, razor bumps", "terms": "eczema|psoriasis|dermatitis|pseudofolliculitis|rash"},
+      {"label": "Kidney stones / urinary problems", "desc": "Stones, frequent urination", "terms": "kidney stone|nephrolith|urinary frequency|nocturia"}]},
+    {"group": "Joints, back and nerves", "items": [
+      {"label": "Back or neck", "desc": "Strain, disc disease, arthritis", "terms": "back pain|lumbar|cervical|neck pain"},
+      {"label": "Nerve pain in legs (sciatica)", "desc": "Shooting pain, numbness or tingling in legs", "terms": "sciatica|radiculopathy|numbness|tingling"},
+      {"label": "Feet", "desc": "Flat feet, plantar fasciitis, toe problems", "terms": "plantar fasci|pes planus|flat feet|bunion"},
+      {"label": "Hands, wrists or elbows", "desc": "Carpal tunnel, fractures, arthritis", "terms": "wrist|carpal tunnel|elbow|finger"},
+      {"label": "Jaw (TMJ)", "desc": "Jaw pain, clicking, teeth grinding", "terms": "tmj|temporomandibular|jaw pain|bruxism"}]}
+  ]
+}

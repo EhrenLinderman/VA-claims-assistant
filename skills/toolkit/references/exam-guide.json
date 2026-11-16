@@ -1,0 +1,309 @@
+{
+ "_provenance": "KILLROYWASHERE - VA Claims Assistant, created by EhrenAL",
+ "_note": "Plain-language exam (C&P / DBQ) guidance by body system. Facts only; never coaching to exaggerate. Families are picked by diagnostic code (dc ranges) or words in the condition name.",
+ "all": {
+  "before": [
+   "Read your statement for this condition again, so the dates and examples are fresh.",
+   "Fill in your symptom log for a few weeks before the exam if you can.",
+   "Write down your 3 worst days in the last few months: what happened, how long it lasted, what you couldn't do."
+  ],
+  "bring": [
+   "Photo ID and your exam appointment letter.",
+   "This prep sheet and your statement.",
+   "A list of your medicines, with how often you take each.",
+   "Any device you use (brace, cane, CPAP mask) and the prescription if you have it.",
+   "Your symptom log."
+  ],
+  "during": [
+   "Describe your typical days AND your bad days. The exam can only record what you tell the examiner and what they see that day.",
+   "Be honest and specific: how often, how long, what you can't do. Don't downplay, and don't exaggerate.",
+   "If something hurts, say so right when it starts. Don't push through pain to look tough.",
+   "If the examiner doesn't ask about something important on this sheet, it's fine to bring it up.",
+   "It's okay to say 'I don't know' or 'I'm not sure'."
+  ],
+  "after": [
+   "Write down what was measured and anything that seemed wrong (for example, the wrong body part, or a symptom left out).",
+   "You can get a copy of the exam report later. If it has a mistake, tell your VSO; it may matter for your rating."
+  ]
+ },
+ "families": {
+  "joint": {
+   "label": "Joints (knee, hip, ankle, shoulder, elbow, wrist)",
+   "dc": [
+    [
+     5000,
+     5025
+    ],
+    [
+     5003,
+     5003
+    ],
+    [
+     5010,
+     5010
+    ],
+    [
+     5200,
+     5230
+    ],
+    [
+     5250,
+     5263
+    ],
+    [
+     5270,
+     5284
+    ]
+   ],
+   "words": [
+    "knee",
+    "hip",
+    "ankle",
+    "shoulder",
+    "elbow",
+    "wrist",
+    "meniscus",
+    "acl",
+    "joint"
+   ],
+   "measured": "Range of motion with a measuring tool, motion after 3 repeats, pain, strength, stability, and the effect of flare-ups and repeated use.",
+   "tell": [
+    "Where in each movement the pain starts. Stop there and say so.",
+    "How often you have flare-ups, how long they last, and how much less you can move or do during one. The examiner should estimate your motion during a flare-up from your description, even if you are not having one that day.",
+    "Whether the joint gives way, locks, catches, or swells, and how often.",
+    "Any brace, cane, or other device a provider prescribed, and when you use it.",
+    "Surgeries, and what is still wrong after them."
+   ]
+  },
+  "spine": {
+   "label": "Back and neck",
+   "dc": [
+    [
+     5235,
+     5243
+    ]
+   ],
+   "words": [
+    "back",
+    "neck",
+    "spine",
+    "lumbar",
+    "cervical",
+    "lumbosacral",
+    "thoracolumbar",
+    "disc"
+   ],
+   "measured": "Range of motion (bending forward, back, to each side, turning), pain, spasm, guarding, nerve symptoms, and the effect of flare-ups.",
+   "tell": [
+    "How far you can bend on a bad day, and what stops you.",
+    "Flare-ups: how often, how long, what sets them off, what you can't do.",
+    "Pain, numbness, or tingling going into your arms or legs, and exactly where.",
+    "Any bed rest a doctor ordered in the last 12 months (dates and how long).",
+    "Bowel or bladder problems, if any."
+   ]
+  },
+  "muscle": {
+   "label": "Muscle injuries",
+   "dc": [
+    [
+     5301,
+     5329
+    ]
+   ],
+   "words": [
+    "hamstring",
+    "muscle",
+    "avulsion",
+    "quadriceps"
+   ],
+   "measured": "The cardinal signs of muscle injury: loss of power, weakness, lowered fatigue threshold, fatigue-pain, impaired coordination, and uncertainty of movement; also atrophy, scars and tests of endurance.",
+   "tell": [
+    "Whether the muscle tires faster than the other side, and after how much activity.",
+    "Pain that comes with fatigue, and weakness or loss of power.",
+    "Trouble with coordination or control (for example, pushing off, stairs, running).",
+    "How the injury happened, how long it took to be treated, and any surgery."
+   ]
+  },
+  "nerve": {
+   "label": "Nerves (radiculopathy, neuropathy)",
+   "dc": [
+    [
+     8510,
+     8730
+    ]
+   ],
+   "words": [
+    "radiculopathy",
+    "nerve",
+    "neuropathy",
+    "sciatica"
+   ],
+   "measured": "Strength, reflexes, sensation, and how severe the nerve problem is (mild, moderate, severe).",
+   "tell": [
+    "Exactly where you feel numbness, tingling, burning, or pain (which fingers or toes).",
+    "Weak grip, dropping things, or tripping, and how often.",
+    "Whether it is constant or comes and goes, and what brings it on.",
+    "Which hand you write with (your dominant side)."
+   ]
+  },
+  "mental": {
+   "label": "Mental health (PTSD, depression, anxiety)",
+   "dc": [
+    [
+     9201,
+     9440
+    ]
+   ],
+   "words": [
+    "ptsd",
+    "depression",
+    "anxiety",
+    "mental",
+    "adjustment",
+    "bipolar"
+   ],
+   "measured": "Your symptoms, how often they happen, and how much they affect work, family and social life.",
+   "tell": [
+    "Your worst symptoms and how often they happen (nightmares, panic, anger, avoiding people, trouble concentrating).",
+    "Specific examples at work and at home: missed work, conflicts, pulling away from family, losing friends.",
+    "Your sleep: how many hours, how often you wake, nightmares.",
+    "Treatment and medicine, and whether they help.",
+    "If you have had thoughts of harming yourself, say so. If you are in crisis, call or text 988, then press 1."
+   ],
+   "extra": [
+    "You don't have to describe traumatic events in detail. You can say 'it's in my records' or 'I'd rather not go into detail'.",
+    "Some Veterans bring a spouse or friend to wait outside. Ask the exam office about their rules."
+   ]
+  },
+  "tbi": {
+   "label": "Traumatic brain injury (TBI)",
+   "dc": [
+    [
+     8045,
+     8045
+    ]
+   ],
+   "words": [
+    "tbi",
+    "traumatic brain",
+    "concussion"
+   ],
+   "measured": "Ten areas: memory and attention, judgment, social behavior, orientation, motor activity, visual-spatial skills, subjective symptoms, behavior, communication, and consciousness.",
+   "tell": [
+    "Memory or attention problems, with real examples (missed appointments, losing track at work).",
+    "Headaches, dizziness, light or sound sensitivity, ringing, sleep problems.",
+    "Each blast or head injury you remember: when, where, and what you felt right after.",
+    "If you have memory complaints, ask whether neuropsychological testing can be done; testing can show problems a short exam misses."
+   ]
+  },
+  "headache": {
+   "label": "Migraines and headaches",
+   "dc": [
+    [
+     8100,
+     8100
+    ]
+   ],
+   "words": [
+    "migraine",
+    "headache"
+   ],
+   "measured": "How often you have prostrating attacks over the last several months, and how long they last.",
+   "tell": [
+    "VA's word 'prostrating' means an attack so bad you can't carry on with ordinary activities: you have to stop, lie down or rest. Tell the examiner how often that happens, counting the last few months.",
+    "How long attacks last, and what you do during one (dark room, medicine, leave work).",
+    "Missed work or leaving early because of headaches, with dates if you have them.",
+    "Bring your headache log; it is the best evidence of how often attacks happen."
+   ]
+  },
+  "apnea": {
+   "label": "Sleep apnea",
+   "dc": [
+    [
+     6847,
+     6847
+    ]
+   ],
+   "words": [
+    "apnea"
+   ],
+   "measured": "Your sleep study result and the treatment you need (for example, a CPAP machine).",
+   "tell": [
+    "Whether a provider prescribed a CPAP or other breathing machine, and how often you use it.",
+    "Daytime sleepiness: dozing off, trouble staying awake at work or driving."
+   ],
+   "extra": [
+    "Bring the CPAP prescription or equipment order, and a usage report if your machine makes one."
+   ]
+  },
+  "hearing": {
+   "label": "Tinnitus and hearing",
+   "dc": [
+    [
+     6100,
+     6100
+    ],
+    [
+     6260,
+     6260
+    ]
+   ],
+   "words": [
+    "tinnitus",
+    "hearing"
+   ],
+   "measured": "A hearing test, and whether the ringing is recurrent.",
+   "tell": [
+    "When the ringing started and what noise or blast it followed.",
+    "Whether it is constant or comes and goes, and how it affects sleep and conversations."
+   ]
+  },
+  "digestive": {
+   "label": "GERD and digestive conditions",
+   "dc": [
+    [
+     7200,
+     7354
+    ]
+   ],
+   "words": [
+    "gerd",
+    "reflux",
+    "esophag"
+   ],
+   "measured": "Symptoms, how often they happen, medicines you need, and any narrowing (stricture) found on tests.",
+   "tell": [
+    "How many days a week you have symptoms, and whether you need medicine daily.",
+    "Trouble swallowing, food getting stuck, vomiting, or weight loss.",
+    "Any scope or swallow test you've had (bring the report)."
+   ]
+  },
+  "skin": {
+   "label": "Scars",
+   "dc": [
+    [
+     7800,
+     7805
+    ]
+   ],
+   "words": [
+    "scar"
+   ],
+   "measured": "The number, size and location of each scar, and whether any is painful or unstable (breaks down).",
+   "tell": [
+    "Show every scar, including small ones from scopes or stitches.",
+    "Any scar that hurts, itches, or breaks open, and how often.",
+    "Anything a scar keeps you from doing."
+   ]
+  },
+  "general": {
+   "label": "Other conditions",
+   "dc": [],
+   "words": [],
+   "measured": "What the condition is, how severe it is, and how it affects you.",
+   "tell": [
+    "How often symptoms happen, how long they last, and what you can't do because of them."
+   ]
+  }
+ }
+}

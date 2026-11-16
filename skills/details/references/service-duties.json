@@ -1,0 +1,217 @@
+{
+ "_about": "Service duties and activities that commonly contribute to chronic wear-and-tear conditions. Used as the IN-SERVICE EVENT for chronic musculoskeletal (and some other) claims. VA must consider 'the places, types, and circumstances of service' (38 U.S.C. 1154(a); 38 CFR 3.303(a), 3.306(b)(2)). These are leads for the Veteran's statement and a doctor's nexus opinion, not proof by themselves. Created by EhrenAL. KILLROYWASHERE",
+ "duties": [
+  {
+   "id": "airborne",
+   "label": "Airborne jumps",
+   "desc": "Static-line or free-fall parachute jumps and hard landings",
+   "areas": [
+    "knee",
+    "ankle",
+    "hip",
+    "back",
+    "neck"
+   ],
+   "proof": "Parachutist badge (DD-214/ERB/ORB), jump log, jump master records",
+   "terms": "airborne (jump|school|operation|training)|parachut|jumpmaster|airborne jumps"
+  },
+  {
+   "id": "air_assault",
+   "label": "Air assault / rappelling / fast-rope",
+   "desc": "Rappelling, fast-roping, helicopter insertions",
+   "areas": [
+    "shoulder",
+    "knee",
+    "ankle",
+    "back",
+    "hand"
+   ],
+   "proof": "Air Assault badge, school certificate",
+   "terms": "air assault|rappel|fast.?rop"
+  },
+  {
+   "id": "rucking",
+   "label": "Ruck marching with heavy loads",
+   "desc": "Long road marches with a full rucksack",
+   "areas": [
+    "back",
+    "hip",
+    "knee",
+    "ankle",
+    "foot",
+    "shoulder",
+    "neck"
+   ],
+   "proof": "Unit training records, schools, awards, buddy statements",
+   "terms": "\\bruck(ing| march| marches|sack)|road march|foot march"
+  },
+  {
+   "id": "combat_load",
+   "label": "Body armor and full combat load",
+   "desc": "Wearing body armor, helmet and gear for long periods",
+   "areas": [
+    "back",
+    "neck",
+    "shoulder",
+    "hip",
+    "knee"
+   ],
+   "proof": "Deployment records, combat patch, awards",
+   "terms": "heavy body armor|combat load|battle load|load carriage|wearing (body armor|military gear)"
+  },
+  {
+   "id": "vehicles",
+   "label": "Armored vehicles",
+   "desc": "Climbing on and off tanks, Bradleys, MRAPs; jarring rides",
+   "areas": [
+    "knee",
+    "back",
+    "neck",
+    "shoulder",
+    "ankle"
+   ],
+   "proof": "MOS, unit type, deployment records, buddy statements",
+   "terms": "\\bmrap\\b|bradley|stryker|armored (vehicle|tank)|operate armored|mounting|dismounting|convoy"
+  },
+  {
+   "id": "schools",
+   "label": "Demanding schools (Ranger, SF, Sapper, etc.)",
+   "desc": "Long, high-stress schools with heavy loads and little sleep",
+   "areas": [
+    "knee",
+    "ankle",
+    "back",
+    "hip",
+    "foot",
+    "sleep",
+    "mental"
+   ],
+   "proof": "Tab or badge on DD-214, school certificate",
+   "terms": "ranger school|sapper school|special forces|q course|pathfinder|dahlonega|camp merrill|camp frank d\\.? merrill|camp rogers|camp darby|camp rudder|ranger training brigade|\\brtb\\b",
+   "clinic_hint": "Ranger School sick-call notes often name the site, not the school: TMC #6 Dahlonega / Camp Merrill (mountain phase), Camp Rogers / Camp Darby (Fort Benning phase), Camp Rudder / Eglin (Florida phase)."
+  },
+  {
+   "id": "pt_tests",
+   "label": "PT and fitness test training",
+   "desc": "Training for APFT/ACFT and other fitness tests (deadlifts, sprints, sled drags)",
+   "areas": [
+    "knee",
+    "back",
+    "hip",
+    "hamstring",
+    "shoulder",
+    "ankle"
+   ],
+   "proof": "Profiles, fitness test records, sick call notes",
+   "terms": "\\bacft\\b|army fitness test|fitness test modification|\\bapft\\b|deadlift|sprint drag"
+  },
+  {
+   "id": "combatives",
+   "label": "Combatives and hand-to-hand training",
+   "desc": "Takedowns, grappling, strikes",
+   "areas": [
+    "knee",
+    "shoulder",
+    "neck",
+    "hand",
+    "head"
+   ],
+   "proof": "Combatives certificates, sick call notes",
+   "terms": "combatives|grappling|wrestl"
+  },
+  {
+   "id": "field_training",
+   "label": "Field training and uneven terrain",
+   "desc": "Exercises, patrols, land navigation over rough ground",
+   "areas": [
+    "ankle",
+    "knee",
+    "foot",
+    "back"
+   ],
+   "proof": "Unit records, buddy statements",
+   "terms": "field exercise|\\bftx\\b|land nav|uneven terrain"
+  },
+  {
+   "id": "noise",
+   "label": "Loud noise",
+   "desc": "Weapons, blasts, aircraft, generators, engines",
+   "areas": [
+    "ear"
+   ],
+   "proof": "MOS noise exposure, hearing tests, deployment records",
+   "terms": "firearms|weapons fire|aircraft|generators|noise exposure|explosions"
+  },
+  {
+   "id": "blast",
+   "label": "Blasts and explosions",
+   "desc": "IEDs, rockets, mortars, breaching, demolitions",
+   "areas": [
+    "head",
+    "ear",
+    "mental",
+    "neck",
+    "back"
+   ],
+   "proof": "Post-deployment forms, combat action badge, awards, TBI screenings",
+   "terms": "\\bied\\b|blast|explosion|rocket attack|mortar"
+  },
+  {
+   "id": "sleep_loss",
+   "label": "Long-term sleep loss and shift work",
+   "desc": "Missions, staff duty, deployments with little sleep",
+   "areas": [
+    "sleep",
+    "mental",
+    "head"
+   ],
+   "proof": "Deployment records, statements",
+   "terms": "sleep deprivation|irregular sleep|shift work: yes"
+  },
+  {
+   "id": "toxic",
+   "label": "Burn pits, dust, fumes, chemicals",
+   "desc": "Burn pits, sand and dust, fuel, solvents",
+   "areas": [
+    "breathing",
+    "sinus",
+    "skin",
+    "head"
+   ],
+   "proof": "Deployment locations, PACT Act exposure screening",
+   "terms": "burn pit|dust exposure|air pollution|fumes|jp-?8"
+  }
+ ],
+ "area_map": {
+  "Musculoskeletal": [
+   "knee",
+   "ankle",
+   "hip",
+   "back",
+   "neck",
+   "shoulder",
+   "hamstring",
+   "foot",
+   "hand"
+  ],
+  "Ear": [
+   "ear"
+  ],
+  "Mental health": [
+   "mental"
+  ],
+  "Neurological": [
+   "head",
+   "neck",
+   "back"
+  ],
+  "Respiratory": [
+   "sleep",
+   "breathing",
+   "sinus"
+  ],
+  "Skin": [
+   "skin"
+  ]
+ }
+}

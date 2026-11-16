@@ -1,0 +1,124 @@
+{
+ "_about": "Common medical connections to screen for (38 CFR 3.310). A link here is a LEAD: a secondary claim still needs a current diagnosis AND a medical opinion that the service-connected condition caused or worsened it. Created by EhrenAL. KILLROYWASHERE",
+ "links": [
+  {
+   "from": [
+    "ptsd",
+    "depression",
+    "anxiety"
+   ],
+   "to": "Hypertension (high blood pressure)",
+   "check": "BP readings: VA needs diastolic predominantly >= 90 or systolic predominantly >= 160, confirmed on 3+ days",
+   "terms": "blood pressure|hypertension"
+  },
+  {
+   "from": [
+    "ptsd",
+    "depression",
+    "anxiety"
+   ],
+   "to": "Sleep apnea (aggravation)",
+   "check": "Sleep study diagnosis",
+   "terms": "sleep apnea|cpap"
+  },
+  {
+   "from": [
+    "ptsd",
+    "depression",
+    "anxiety"
+   ],
+   "to": "GERD / IBS",
+   "check": "GI diagnosis",
+   "terms": "gerd|reflux|irritable bowel"
+  },
+  {
+   "from": [
+    "ptsd",
+    "depression",
+    "anxiety"
+   ],
+   "to": "Erectile dysfunction (often from SSRI medicines)",
+   "check": "Diagnosis; medication list",
+   "terms": "erectile|sertraline|fluoxetine|paroxetine|escitalopram"
+  },
+  {
+   "from": [
+    "ptsd",
+    "depression",
+    "anxiety",
+    "tbi"
+   ],
+   "to": "Migraines / headaches",
+   "check": "Headache diagnosis",
+   "terms": "migraine|headache"
+  },
+  {
+   "from": [
+    "tbi"
+   ],
+   "to": "Tinnitus (blast-related; also listed as a TBI symptom)",
+   "check": "Tinnitus diagnosis; blast exposure record",
+   "terms": "tinnitus|ringing in the ears|blast"
+  },
+  {
+   "from": [
+    "tbi"
+   ],
+   "to": "Depression, seizures, dementia, Parkinsonism, hormone problems (38 CFR 3.310(d))",
+   "check": "Diagnosis within set time frames",
+   "terms": "depress|seizure|dementia|parkinson"
+  },
+  {
+   "from": [
+    "knee",
+    "ankle",
+    "hip",
+    "back",
+    "hamstring"
+   ],
+   "to": "Other joints from favoring one side (opposite knee, hips, back, ankles)",
+   "check": "Diagnosis in the other joint",
+   "terms": "compensat|altered gait|favoring"
+  },
+  {
+   "from": [
+    "knee",
+    "ankle",
+    "hip",
+    "back",
+    "neck",
+    "shoulder",
+    "hamstring"
+   ],
+   "to": "GERD / stomach problems from long-term pain medicines (NSAIDs: ibuprofen, naproxen, meloxicam, celecoxib)",
+   "check": "Medication history + GI diagnosis",
+   "terms": "ibuprofen|motrin|naproxen|meloxicam|celecoxib|celebrex|nsaid"
+  },
+  {
+   "from": [
+    "back",
+    "neck"
+   ],
+   "to": "Radiculopathy (nerve pain into arms or legs)",
+   "check": "Neuro findings on exam",
+   "terms": "radiculopathy|sciatica|numbness|tingling"
+  },
+  {
+   "from": [
+    "sleep_apnea"
+   ],
+   "to": "Hypertension",
+   "check": "BP readings as above",
+   "terms": "blood pressure|hypertension"
+  },
+  {
+   "from": [
+    "tinnitus",
+    "hearing"
+   ],
+   "to": "Anxiety / sleep problems",
+   "check": "Mental health diagnosis",
+   "terms": "anxiety|insomnia"
+  }
+ ]
+}
