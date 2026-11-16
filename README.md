@@ -33,12 +33,15 @@ and explains your VA decision when it comes.
    higher). The tool is free; the Claude subscription is a cost of the AI app, not a fee
    for preparing your claim.
 2. **Get the plugin.** Download `va-claims-assistant.plugin` from this repository's
-   **Releases** page and add it in Cowork as a plugin. (Claude Code users:
+   **Releases** (https://github.com/EhrenLinderman/VA-claims-assistant/releases) page and add it in Cowork as a plugin. (Claude Code users:
    `/plugin marketplace add EhrenLinderman/va-claims-assistant`, then
    `/plugin install va-claims-assistant@va-claims-assistant`.)
-3. **Make a folder** on your computer and put your medical records (PDFs) in it: service
+ 
+ Download starts automatically **[⬇ Download the app (va-claims-assistant.plugin)](https://github.com/EhrenLinderman/VA-claims-assistant/releases/latest/download/va-claims-assistant.plugin)**, then add it in Claude Cowork as a plugin and say "start my VA claim."
+   
+4. **Make a folder** on your computer and put your medical records (PDFs) in it: service
    treatment records, VA exams, private records.
-4. **Say "start my VA claim."** Every step is a button screen. Stop any time; your
+5. **Say "start my VA claim."** Every step is a button screen. Stop any time; your
    progress is saved.
 
 ## Everyday commands
