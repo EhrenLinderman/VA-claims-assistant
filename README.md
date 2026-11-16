@@ -111,6 +111,7 @@ original records are never moved, renamed or changed.
 
 ## Ideas for the next version
 
+Include versions to be used on other applications or platforms after initial testing
 A scored test set of more Veterans, symptom-log reminders, a combined-rating estimate,
 a mode for VSOs, and a standalone app.
 
